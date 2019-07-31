@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:paddingHorizontal="30dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="JangBoo"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:text=""
+            android:textSize="50dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginBottom="16dp"
+            android:id="@+id/TextView_dept"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="계산하기 귀찮누"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:background="@drawable/btn_gray"
+            android:clickable="true"
+            android:layout_marginBottom="16dp"
+            android:id="@+id/TextView_half"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="따로따로"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:background="@drawable/btn_gray"
+            android:clickable="true"
+            android:layout_marginBottom="32dp"
+            android:id="@+id/TextView_sol"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginBottom="16dp"
+            >
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="match_parent"
+                android:text="min"
+                android:textSize="50dp"
+                android:layout_gravity="left"
+                android:gravity="center"
+                android:layout_alignParentLeft="true"
+                android:background="@drawable/btn_gray"
+                android:clickable="true"
+                android:id="@+id/TextView_min"/>
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="match_parent"
+                android:text="jo"
+                android:textSize="50dp"
+                android:layout_alignParentRight="true"
+                android:gravity="center"
+                android:background="@drawable/btn_gray"
+                android:clickable="true"
+                android:id="@+id/TextView_jo"
+                />
+        </RelativeLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginVertical="16dp">
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:hint="Input Charge"
+                android:inputType="phone"
+                android:id="@+id/TextInputEditText_charge"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:text="update"
+            android:layout_marginBottom="100dp"
+            android:id="@+id/Button_update"/>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

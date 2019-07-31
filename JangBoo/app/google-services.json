@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "984877800441",
+    "firebase_url": "https://jang-boo.firebaseio.com",
+    "project_id": "jang-boo",
+    "storage_bucket": "jang-boo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:984877800441:android:d9a64e46b5b1f26e",
+        "android_client_info": {
+          "package_name": "com.minjo.jangboo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "984877800441-bgsjdsbbvjotg82a3e3b2pu062dphq14.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIcSw2tgQ8fOoSMe0jiJ8qhwkyiWkwewo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
